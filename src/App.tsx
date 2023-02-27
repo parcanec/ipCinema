@@ -1,18 +1,17 @@
 import './App.css'
-import { Provider } from "react-redux";
-import Widget from "./components/widget.jsx";
+import Home from "./components/home";
 import Header from "./components/header"
-import {Routes, Route, Link } from "react-router-dom"
+import {Routes, Route, Link} from "react-router-dom"
+import LoginPage from "./components/login";
 
 function App() {
   return (
     <div>
-      <header className="menu">
-        <Header/>
-      </header>
-      <div className="widget">
-        <Widget/>
-      </div>
+      <Header/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/login" element={<LoginPage/>}/>
+      </Routes>
     </div>
   )
 }

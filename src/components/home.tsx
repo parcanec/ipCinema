@@ -1,9 +1,9 @@
 import React from "react";
 
-const Widget = () => {
+const Home = () => {
     return (
-        <div>
+        <div>Home
         </div>
     )
 }
-export default Widget
+export default Home

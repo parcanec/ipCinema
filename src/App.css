@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    width: auto;
+    height: 60px;
+    background-color: rgb(100, 100, 254);
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 40px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header button {
+    color: white; 
+    background:green;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px 20px
+}

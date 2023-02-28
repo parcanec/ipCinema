@@ -17,10 +17,10 @@ const Item: FC<IItem> = ({
   return (
     <div className="flex justify-between overflow-hidden w-96 h-60 shadow-lg border rounded-lg ">
       <div>
-        <img className="h-full w-full"
+        <img className="h-full w-full aspect-[4/3]"
              src={img}             alt={title}/>
       </div>
-      <div className="w-3/5 flex flex-col justify-between">
+      <div className=" w-full flex flex-col justify-between">
         <div className='p-3'>
           <div className='flex justify-between items-center'>
             <div className='w-full'>Рейтинг: {'8.4'}</div>
@@ -38,7 +38,7 @@ const Item: FC<IItem> = ({
           </div>
           <h3 className={'text-xl font-bold mt-3 '}>{title}</h3>
         </div>
-        <Link to={'/login'} className='border-t flex justify-center p-3'>
+        <Link to={'/login'} className='border-t flex justify-center p-3 hover:bg-violet-300 transition duration-150 ease-out hover:ease-in'>
           Подробнее
         </Link>
       </div>

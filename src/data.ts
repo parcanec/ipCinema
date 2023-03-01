@@ -1,3 +1,5 @@
+import {IGenre} from "./components/types";
+
 export const items = [
     {
       "adult": false,
@@ -414,7 +416,7 @@ export const items = [
     }
 ]
 
-export const genres = [
+export const genres:IGenre[] = [
     {
       "id": 28,
       "name": "боевик"

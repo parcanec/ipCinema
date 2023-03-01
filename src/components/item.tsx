@@ -6,21 +6,21 @@ const Item: FC<{ item:IItem }> = ({
                                     item: {
                                       title,
                                       poster_path,
+                                      vote_average
                                     }
                                   }) => {
-  const isRate = false
-  const isFav = false
+                                    const isRate = false
+                                    const isFav = false
 
   return (
     <div className="flex justify-between overflow-hidden w-96 h-60 shadow-lg border rounded-lg ">
       <div>
-        <img className="h-full w-full aspect-[4/3]"
-             src={poster_path} alt={title}/>
+        <img className="h-full w-full aspect-[4/3]" src={poster_path} alt={title}/>
       </div>
       <div className=" w-full flex flex-col justify-between">
         <div className='p-3'>
           <div className='flex justify-between items-center'>
-            <div className='w-full'>Рейтинг: {'8.4'}</div>
+            <div className='w-full'>Рейтинг: {vote_average}</div>
             <div className='w-20 flex justify-between text-2xl'>
               <button title="оценка">
                 <img src={isRate ? '/img/star-point.png' : '/img/star.png'}

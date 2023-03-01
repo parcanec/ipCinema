@@ -29,19 +29,3 @@ const Filters = () => {
 };
 
 export default Filters;
-
-//<label><input type="checkbox" name="Приключение" value="Приключение"/> Приключение</label>
-//<label><input type="checkbox" name="Мультфильм" value="Мультфильм"/> Мультфильм</label>
-//<label><input type="checkbox" name="Комедия" value="Комедия"/> Комедия</label>
-//<label><input type="checkbox" name="Криминал" value="Криминал"/> Криминал</label>
-//<label><input type="checkbox" name="Документальный" value="Документальный"/> Документальный</label>
-//<label><input type="checkbox" name="Драма" value="Драма"/> Драма</label>
-//<label><input type="checkbox" name="Семейный" value="Семейный"/> Семейный</label>
-//<label><input type="checkbox" name="Боевик2" value="Боевик2"/> Боевик2</label>
-//<label><input type="checkbox" name="Приключение2" value="Приключение2"/> Приключение2</label>
-//<label><input type="checkbox" name="Мультфильм2" value="Мультфильм2"/> Мультфильм2</label>
-//<label><input type="checkbox" name="Комедия2" value="Комедия2"/> Комедия2</label>
-//<label><input type="checkbox" name="Криминал2" value="Криминал2"/> Криминал2</label>
-//<label><input type="checkbox" name="Документальный2" value="Документальный2"/> Документальный2</label>
-//<label><input type="checkbox" name="Драма2" value="Драма2"/> Драма2</label>
-//<label><input type="checkbox" name="Семейный2" value="Семейный2"/> Семейный2</label>

@@ -1,5 +1,7 @@
 import React from 'react';
-import {genres} from '../data'
+import {FC} from "react";
+import {IGenre} from "../types";
+import {genres} from '../data';
 
 const Filters = () => {
   return (

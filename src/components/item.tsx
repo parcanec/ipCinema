@@ -15,7 +15,7 @@ const Item: FC<{ item:IItem }> = ({
   return (
     <div className="flex justify-between overflow-hidden w-96 h-60 shadow-lg border rounded-lg ">
       <div>
-        <img className="h-full w-full aspect-[4/3]" src={poster_path} alt={title}/>
+        <img className="h-full w-full aspect-[4/3]" src={poster_path?poster_path:'https://kinohype.one/uploads/poster_none.jpg'} alt={title}/>
       </div>
       <div className=" w-full flex flex-col justify-between">
         <div className='p-3'>

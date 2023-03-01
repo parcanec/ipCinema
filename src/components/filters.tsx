@@ -23,7 +23,7 @@ const Filters = () => {
         <div className="font-light mb-1">Жанры:</div>
         {
           genres.map(genre=>(
-            <label><input type="checkbox"/> {name}</label>
+            <label><input type="checkbox"/> {genre.name}</label>
           ))
         }
         <label><input type="checkbox" name="Боевик" value="Боевик"/> Боевик</label>

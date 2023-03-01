@@ -7,7 +7,7 @@ const Dashboard: FC = (props) => {
   return (
     <div>
         <div className="flex flex-wrap gap-6">
-          {items.map(item=><Item item={item}/>)}
+          {items.map(item=><Item item={item} key={item.title}/>)}
         </div>
         <div >
             <Pagination/>

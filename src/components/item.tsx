@@ -1,6 +1,6 @@
 import {FC} from "react";
 import {Link} from "react-router-dom";
-import {IGenre, IItem} from "../types";
+import {IItem} from "../types";
 
 const Item: FC<{ item:IItem }> = ({
                                     item: {

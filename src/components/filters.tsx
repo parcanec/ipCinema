@@ -1,5 +1,4 @@
-import React from 'react';
-import {FC} from "react";
+import React, {FC} from 'react';
 import {IGenre} from "../types";
 import {genres} from '../data';
 
@@ -22,7 +21,11 @@ const Filters = () => {
       </select>
       <div className={'flex flex-col gap-2'}>
         <div className="font-light mb-1">Жанры:</div>
-
+        {
+          genres.map(genre=>(
+            <label><input type="checkbox"/> {name}</label>
+          ))
+        }
         <label><input type="checkbox" name="Боевик" value="Боевик"/> Боевик</label>
       </div>
 

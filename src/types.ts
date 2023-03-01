@@ -18,5 +18,4 @@ export interface IItem {
   video: boolean
   vote_average: number
   vote_count: number
-  img: string
 }

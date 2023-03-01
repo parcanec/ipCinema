@@ -1,19 +1,14 @@
 import {FC} from "react";
 import {Link} from "react-router-dom";
-
-interface IItem {
-  isFav?: boolean
-  isRate?: boolean
-  title?: string
-  img?: string
-}
+import {IGenre, IItem} from "../types";
 
 const Item: FC<IItem> = ({
                            title = 'Территория',
-                           isFav = false,
-                           isRate = false,
-                           img = 'https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/559d0309-aa32-4ce6-8446-252e375d2a80/600x900'
-                         }) => {
+                           vote_average = 5,
+                          }) => {
+                            const isRate = false
+                            const isFav = false
+                            const img = 'https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/94208da4-e497-41a8-a3d2-dbaebaa1e121/220x'
   return (
     <div className="flex justify-between overflow-hidden w-96 h-60 shadow-lg border rounded-lg ">
       <div>

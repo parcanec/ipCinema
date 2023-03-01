@@ -6,15 +6,22 @@ const Dashboard: FC = (props) => {
   return (
     <div>
         <div className="flex flex-wrap gap-6">
-            <Item/>
-            <Item isFav={true} isRate={true}/>
-            <Item img={'https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/94208da4-e497-41a8-a3d2-dbaebaa1e121/1920x'}/>
-            <Item isFav={true}/>
-            <Item title={'Чебурашка'} img={"https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/d59f5ce5-d179-4e7e-80ee-e9ae724a63e6/1920x"}/>
-            <Item isRate={true}/>
-            <Item/>
-            <Item/>
-            <Item/>
+            <Item 
+            title={'Чебурашка'} 
+            img={"https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/c893c845-0e2b-405c-919a-4ed737fad0f3/200x300"} 
+            adult={false} 
+            backdrop_path={""} 
+            genre_ids={[]} 
+            id={0} 
+            original_language={""} 
+            original_title={""} 
+            overview={""} 
+            popularity={0} 
+            poster_path={""} 
+            release_date={""} 
+            video={false} 
+            vote_average={0} 
+            vote_count={0}/>
         </div>
         <div >
             <Pagination/>

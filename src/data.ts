@@ -1,6 +1,6 @@
-import {IGenre} from "./components/types";
+import {IGenre, IItem} from "./types";
 
-export const items = [
+export const items: IItem[]= [
     {
       "adult": false,
       "backdrop_path": "/img/film_bg.jpg",

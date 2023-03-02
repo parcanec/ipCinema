@@ -4,7 +4,6 @@ interface IPagination {
     page: number
     pageCount: number
     setPage: ()=>void
-    (number)=>void
 }
 
 const Pagination: FC<IPagination> = (props) => {

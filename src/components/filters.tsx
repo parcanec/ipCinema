@@ -26,7 +26,6 @@ const Filters = () => {
             <label key={genre.id}><input type="checkbox"/> {genre.name}</label>
           ))
         }
-        <label><input type="checkbox" name="Боевик" value="Боевик"/> Боевик</label>
       </div>
 
     </div>

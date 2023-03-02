@@ -3,8 +3,7 @@ import {FC} from "react";
 interface IPagination {
     page: number
     pageCount: number
-    setPage: ()=>void
-}
+    setPage: (arg0:number)=>void}
 
 const Pagination: FC<IPagination> = (props) => {
     return (

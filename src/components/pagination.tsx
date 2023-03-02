@@ -1,6 +1,13 @@
 import {FC} from "react";
 
-const Pagination: FC = (props) => {
+interface IPagination {
+    page: number
+    pageCount: number
+    setPage: ()=>void
+    (number)=>void
+}
+
+const Pagination: FC<IPagination> = (props) => {
     return (
         <div>
             <div className={'flex gap-4 mb-4'}>

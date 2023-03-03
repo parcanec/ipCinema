@@ -1,4 +1,4 @@
-import React, {FC, useEffect, useState} from 'react';
+import {useState} from 'react';
 import {genres} from '../data';
 
 export interface IFitler {

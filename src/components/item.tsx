@@ -6,7 +6,8 @@ const Item: FC<{ item:IItem }> = ({
                                     item: {
                                       title,
                                       poster_path,
-                                      vote_average
+                                      vote_average,
+                                      release_date
                                     }
                                   }) => {
                                     const isRate = false
@@ -34,6 +35,7 @@ const Item: FC<{ item:IItem }> = ({
 
           </div>
           <h3 className={'text-xl font-bold mt-3 '}>{title}</h3>
+          <h4 className={'text-s font-bold mt-3 '}>Релиз: {release_date}</h4>
         </div>
         <Link to={'/login'}
               className='border-t flex justify-center p-3 hover:bg-violet-300 transition duration-150 ease-out hover:ease-in'>

@@ -1,10 +1,5 @@
 import {FC} from "react";
-
-interface IPagination {
-  page: number
-  pageCount: number
-  setPage: (arg0: number) => void
-}
+import {IPagination} from "../types";
 
 const Pagination: FC<IPagination> = (props) => {
   return (

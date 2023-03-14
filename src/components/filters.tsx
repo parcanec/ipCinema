@@ -1,10 +1,6 @@
 import {useState} from 'react';
 import {genres} from '../data';
-
-export interface IFitler {
-  value: number
-  label: string
-}
+import {IFitler} from "../types";
 
 const YEARS: number[] = [2020, 2019, 2018, 2017]
 const FILTERS: IFitler[] = [

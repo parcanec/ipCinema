@@ -1,5 +1,4 @@
 import {FC} from "react";
-import Item from "./item";
 import Dashboard from "./dashboard";
 import Filters from "./filters";
 

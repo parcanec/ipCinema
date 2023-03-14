@@ -1,4 +1,4 @@
-import {IGenre, IItem} from "./types";
+import {IFitler, IGenre, IItem} from "./types";
 
 export const items: IItem[]= [
     {
@@ -1146,4 +1146,17 @@ export const genres:IGenre[] = [
       "id": 37,
       "name": "вестерн"
     }
+]
+
+export const YEARS: number[] = [2020, 2019, 2018, 2017]
+export const FILTERS: IFitler[] = [
+  {
+    value: 0, label: "Популярные по убыванию"
+  }, {
+    value: 1, label: "Популярные по возрастанию"
+  }, {
+    value: 2, label: "Рейтинг по убыванию"
+  }, {
+    value: 3, label: "Рейтинг по возрастанию"
+  }
 ]

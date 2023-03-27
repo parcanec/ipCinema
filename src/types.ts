@@ -21,12 +21,12 @@ export interface IItem {
 }
 
 export interface IFitler {
-  value: number
-  label: string
+  value: number;
+  label: string;
 }
 
 export interface IPagination {
-  page: number
-  pageCount: number
-  setPage: (arg0: number) => void
+  page: number;
+  pageCount: number;
+  setPage: (arg0: number) => void;
 }
